@@ -1,0 +1,18 @@
+.tienda{
+    background-image: url(../../images/fondo-naturaleza-hojas-grises-azules_52683-25369.jpg);
+    background-size: cover;
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: 7px 5px 2px 0px rgba(139,148,143,0.48);
+    -moz-box-shadow: 7px 5px 2px 0px rgba(139,148,143,0.48);
+    box-shadow: 7px 5px 2px 0px rgba(139,148,143,0.48);
+    
+}
+
+.main__tienda{
+font-size: large;
+color:#4da6c9;
+}

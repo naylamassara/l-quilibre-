@@ -1,0 +1,46 @@
+.main__h1--caracteristica {
+  color: #028090;
+  text-align: center; }
+
+.main__h2--caracteristica {
+  color: #05668d;
+  text-align: center; }
+
+.carousel {
+  height: 20rem;
+  color: #3d3d3d; }
+
+.carousel-item {
+  height: 20rem;
+  object-fit: cover; }
+  .carousel-item h5 {
+    color: #3d3d3d; }
+
+.header__nav--colores a {
+  color: #02c39a; }
+
+.body__form {
+  background-image: url("../../images/fondo11.jpg");
+  background-size: cover;
+  color: #5a5454;
+  font-size: 2rem; }
+
+.tienda {
+  background-image: url(../../images/fondo-naturaleza-hojas-grises-azules_52683-25369.jpg);
+  background-size: cover; }
+
+.card:hover {
+  transform: scale(1.1);
+  -webkit-box-shadow: 7px 5px 2px 0px rgba(139, 148, 143, 0.48);
+  -moz-box-shadow: 7px 5px 2px 0px rgba(139, 148, 143, 0.48);
+  box-shadow: 7px 5px 2px 0px rgba(139, 148, 143, 0.48); }
+
+.main__tienda {
+  font-size: large;
+  color: #4da6c9; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #fafafa; }
