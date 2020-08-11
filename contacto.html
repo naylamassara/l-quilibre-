@@ -4,66 +4,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto Sentida Botánica MDQ</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
     <link rel="stylesheet" href="public/css/estilos.css">
+
+    <title>Contacto Sentida Botánica MDQ</title>
+
+    <meta name="description"
+        content="Somos una marca inspirada en la naturaleza y por lo tanto la respetamos profundamentes">
+    <meta name="keywords" content="Naturaleza, Natural, Biodegradable, Vegano, Cruelty Free">
+
+
 </head>
 
-<body class="body__form">
+<body>
 
-    <form class="m-5">
-        <div class="form-row">
-            <div class="form-group col-md-6 ">
-                <label for="inputnombre">Nombre y Apellido</label>
-                <input type="nombre" class="form-control" id="inputnombre">
+    <header>
+        <nav class="container-fluid fixed-top header__nav">
+            <div class="row">
+                <a class="col mr-auto p-2 bd-highlight" href="./index.html"><img height="20px" title="Home"
+                        src="./images/logo.png" alt="Logo">
+                </a>
+                <ul class="col nav col-sm-10 flex-nowrap justify-content-end pr-5">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Secciones</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Salud</a>
+                            <a class="dropdown-item" href="#">Alimentación</a>
+                            <a class="dropdown-item" href="#">Cuidado personal</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="instagram"><img height="20px" src="./images/instagram.png"
+                                alt="Instagram">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="facebook"> <img height="20px" src="./images/facebook.png"
+                                alt="Facebook">
+                        </a>
+                    </li>
+
+                </ul>
             </div>
-        </div>
+        </nav>
+
+    </header>
+
+
+    <main class="body__form p-3 mt-5">
+
+        <form class="m-5">
             <div class="form-row">
+                <div class="form-group col-md-6 ">
+                    <label for="inputnombre">Nombre y Apellido</label>
+                    <input type="nombre" class="form-control" id="inputnombre">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="inputsexo">Sexo</label>
+                    <select id="inputsexo" class="form-control">
+                        <option selected>Elegir...</option>
+                        <option>Masculino</option>
+                        <option>Femenino</option>
+                        <option>Indefinido</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label for="inputZip">Mensaje</label>
+                    <textarea class="borde" name="mensaje" id="inputZip" cols="43" rows="5"></textarea>
+
+                </div>
+            </div>
             <div class="form-group">
-                <label for="inputsexo">Sexo</label>
-                <select id="inputsexo" class="form-control">
-                    <option selected>Choose...</option>
-                    <option>Masculino</option>
-                    <option>Femenino</option>
-                    <option>Indefinido</option>
-                </select>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label m-2" for="invalidCheck2">
+                        Acepte terminos y condiciones.
+                    </label>
+                </div>
             </div>
-        </div>
-        <div class="form-row">
-            <div class="form-group col-md-4">
-                <label for="inputState">Estado Civil</label>
-                <select id="inputState" class="form-control">
-                    <option selected>Choose...</option>
-                    <option>Casado</option>
-                    <option>Divorciado</option>
-                    <option>Soltero</option>
-                </select>
-            </div></div>
-            <div class="form-row">
-            <div class="form-group col-md-2">
-                <label for="inputZip">Mensaje</label>
-                <textarea name="mensaje" id="inputZip" cols="43" rows="5"></textarea>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </main>
 
+    <section class="container-fluid m-5">
+        <div class="row">
+            <div class="col">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201169.28269925909!2d-57.74061839594439!3d-38.01748355645357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1596150634667!5m2!1ses!2sar"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
             </div>
-        </div>
-        <div class="form-group">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                <label class="form-check-label m-2" for="invalidCheck2">
-                   Acepte terminos y condiciones.
-                </label>
+            <div class="informacion col d-flex align-items-center">
+                <div class="mr-3"> DIRECCIÓN:Calle Olavarría n°2329, Mar del Plata (CP 7600) </div>
+                
+                <div>HORARIOS:Jueves, Viernes y Sábados de 18.00 hs a 2.00 hs.</div>
+                
             </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Send</button>
-    </form>
 
-    
+    </section>
+
     <footer>
-        Desarrollado por Massara, Nayla Mariel.
-        <br>
-        l'équilibre ® es una marca registrada.
+        <div class="container-fluid m-5">
+            <div class="row">
+                <div class="col">
+                    <strong> Acerca de l'équilibre</strong>
+                    <p>Nuestro Emprendimiento</p>
+                    <p>Nuestros Valores</p>
+                    <p>Preguntas Frecuentes</p>
+                </div>
+                <div class="col">
+                    <strong>Cómo comprar</strong>
+                    <p>Quiero comprar</p>
+                    <p>Ofertas</p>
+                    <p>Formas de entrega</p>
+
+                </div>
+                <div class="col">
+                    <strong>Términos de privacidad y uso</strong>
+                    <p>Declaración de Privacidad</p>
+                    <p>Términos y Condiciones de uso del sitio</p>
+                    <p>Bases y condiciones</p>
+                </div>
+            </div>
+        </div>
+
+        <small>
+            Desarrollado por Massara, Nayla Mariel.
+            <br>
+            l'équilibre ® es una marca registrada.
+        </small>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

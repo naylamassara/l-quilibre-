@@ -1,6 +1,11 @@
+@import url(../baroneys_textured/BaroneysTextured.ttf);
+@import url("https://fonts.googleapis.com/css2?family=Marvel&family=Roboto:wght@100&display=swap");
 .main__h1--caracteristica {
   color: #028090;
   text-align: center; }
+
+h1 {
+  font-family: "Baroneys Textured"; }
 
 .main__h2--caracteristica {
   color: #05668d;
@@ -16,18 +21,37 @@
   .carousel-item h5 {
     color: #3d3d3d; }
 
-.header__nav--colores a {
-  color: #02c39a; }
+footer {
+  background-color: #264653;
+  color: #fcfcfc; }
+
+.header__nav {
+  background-color: #509c8c;
+  box-shadow: 0px 7px 11px 0px rgba(70, 157, 184, 0.44); }
+  .header__nav a {
+    color: #fcfcfc; }
 
 .body__form {
-  background-image: url("../../images/fondo11.jpg");
+  background-image: url("../../images/woodtable.jpg");
   background-size: cover;
   color: #5a5454;
-  font-size: 2rem; }
+  font-size: 2rem;
+  font-family: "Marvel";
+  font-weight: bold; }
 
-.tienda {
-  background-image: url(../../images/fondo-naturaleza-hojas-grises-azules_52683-25369.jpg);
-  background-size: cover; }
+.borde {
+  border-radius: 20px 20px 20px 20px;
+  border: none; }
+
+.btn-primary {
+  background-color: #509c8c;
+  border-color: #509c8c; }
+
+iframe {
+  border-radius: 20px 20px 20px 20px; }
+
+.informacion {
+  color: #264653; }
 
 .card:hover {
   transform: scale(1.1);
@@ -36,11 +60,48 @@
   box-shadow: 7px 5px 2px 0px rgba(139, 148, 143, 0.48); }
 
 .main__tienda {
-  font-size: large;
-  color: #4da6c9; }
+  background-image: url(../../images/fondoproducto.jpg);
+  background-repeat: repeat-x;
+  color: #4da6c9;
+  height: 25rem;
+  font-family: "Roboto";
+  font-weight: bold; }
 
 html {
   font-size: 62.5%; }
 
 body {
-  background-color: #fafafa; }
+  background-color: #fcfcfc;
+  font-size: 2.3rem; }
+
+header {
+  font-size: 1.84rem; }
+
+h1 {
+  font-size: 9.2rem; }
+
+main {
+  font-size: 1.15rem; }
+
+.card {
+  font-size: 1.53333rem; }
+
+footer {
+  font-size: 1.53333rem; }
+
+h3 {
+  font-size: 4.6rem; }
+
+p {
+  font-size: 1.53333rem; }
+
+form {
+  font-size: 2.3rem; }
+
+.main__tienda {
+  font-size: 4.6rem; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }

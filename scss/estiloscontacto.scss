@@ -1,6 +1,31 @@
+
+
+
+
 .body__form{
-    background-image: url("../../images/fondo11.jpg");
+    background-image: url("../../images/woodtable.jpg");
     background-size: cover;
     color: #5a5454;
     font-size: 2rem;
+    font-family: "Marvel";
+    font-weight:bold;
+}
+
+
+.borde{
+    border-radius: 20px 20px 20px 20px;
+    border: none
+}
+
+.btn-primary{
+background-color: #509c8c;
+border-color: #509c8c;
+}
+
+iframe{
+    border-radius: 20px 20px 20px 20px;
+}
+
+.informacion{
+    color:#264653;
 }

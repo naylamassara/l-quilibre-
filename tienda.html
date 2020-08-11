@@ -4,22 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda Sentida Botánica</title>
+ 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-    <link rel="stylesheet" href="public/css/estilos.css">
+    <link rel="stylesheet" href="public/css/estilos.css">  
+    
+    <title>Tienda Sentida Botánica</title>
+    <meta name="description"content="Productos naturales libres de quimicos, conocelos!">
+    <meta name="keywords" content="Biodegradable, Vegano, Cruelty Free, Salud">
+ 
+
 </head>
 
 <body>
     <header>
-        <nav class="header__nav--colores">
-            <div class="d-flex justify-content-center">
-                <ul class="nav nav-pills justify-content-center ">
-                    <li>
-                        <a href="./index.html"><img height="20px" title="Home" src="./images/logo1.png" alt="Logo">
-                        </a>
-                    </li>
+        <nav class="container-fluid fixed-top header__nav">
+            <div class="row">
+                <a class="col mr-auto p-2 bd-highlight" href="./index.html"><img height="20px" title="Home"
+                        src="./images/logo.png" alt="Logo">
+                </a>
+                <ul class="col nav col-sm-10 flex-nowrap justify-content-end pr-5">
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">Secciones</a>
@@ -35,35 +41,40 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./contacto.html">Contacto</a>
                     </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="instagram"><img height="20px" src="./images/instagram.png"
+                                alt="Instagram">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="facebook"> <img height="20px" src="./images/facebook.png"
+                                alt="Facebook">
+                        </a>
+                    </li>
 
+                </ul>
+            </div>
         </nav>
     </header>
-    <br>
+    
     <main>
-        <div class="containes d-flex">
-            <img class="animate__animated animate__rotateIn animate__slower" height=80px src="../Sentida Botаnica/images/greenherbs.png"
-                d-flex alt="logocircular"> 
-            <h2 class="main__tienda mt-5">Cuidado personal</p>
+        <div class="main__tienda mt-5 d-flex justify-content-center align-items-end pb-5">
+           
+            <div>Cuidado personal</div> 
            
         </div>
 
         <div class="tienda">
             <div class="container d-flex justify-content-around">
                 <div class="card" style="width: 18rem;">
-                    <img src="./images/aguamicelar.png" class="card-img-top" alt="aguamicelar">
+                    <img src="./images/aguamicelar.jpeg" class="card-img-top" alt="aguamicelar">
                     <div class="card-body">
-                        <p class="card-text">AGUA MICELAR</p>
+                        <p class="card-text">AGUA MICELAR: limpia la piel sin irritarla</p>
                     </div>
                 </div>
 
                 <div class="card" style="width: 18rem;">
-                    <img src="./images/shampoo.png" class="card-img-top" alt="Shampoo">
+                    <img src="./images/shampoo.jpeg" class="card-img-top" alt="Shampoo">
                     <div class="card-body">
                         <p class="card-text">
                             SHAMPOO FORTALECEDOR
@@ -75,7 +86,7 @@
                 </div>
 
                 <div class="card" style="width: 18rem;">
-                    <img src="./images/acondicionador.png" class="card-img-top" alt="acondicionador">
+                    <img src="./images/acondicionador.jpeg" class="card-img-top" alt="acondicionador">
                     <div class="card-body">
                         <p class="card-text">
                             ACONDIONADOR SOLIDO
@@ -87,7 +98,7 @@
                 </div>
 
                 <div class="card" style="width: 18rem;">
-                    <img src="./images/jabon.png" class="card-img-top"
+                    <img src="./images/jabon.jpg" class="card-img-top"
                         alt="2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo">
                     <div class="card-body">
                         <p class="card-text">JABÓN VEGETAL DE CALÉNDULA: Ideal para pieles sensibles y para todo tipo de
@@ -101,11 +112,36 @@
     </main>
 
     <footer>
+        <div class="container-fluid m-5">
+            <div class="row">
+                <div class="col">
+                    <strong> Acerca de l'équilibre</strong>
+                    <p>Nuestro Emprendimiento</p>
+                    <p>Nuestros Valores</p>
+                    <p>Preguntas Frecuentes</p>  
+                </div>
+                <div class="col">
+                    <strong>Cómo comprar</strong>
+                    <p>Quiero comprar</p>
+                    <p>Ofertas</p>
+                    <p>Formas de entrega</p>
+                          
+                </div>
+                <div class="col">
+                    <strong>Términos de privacidad y uso</strong>
+                    <p>Declaración de Privacidad</p>
+                    <p>Términos y Condiciones de uso del sitio</p>
+                    <p>Bases y condiciones</p>
+                </div>
+            </div>
+        </div>
+
+        <small>
         Desarrollado por Massara, Nayla Mariel.
         <br>
         l'équilibre ® es una marca registrada.
+        </small>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

@@ -1,10 +1,14 @@
 
+$fontTitulo: 'Baroneys Textured'; 
+
 
 .main__h1--caracteristica{
     color: #028090;
     text-align: center;
     
-
+}
+h1{
+    font-family: $fontTitulo;
 }
 
 .main__h2--caracteristica{
@@ -12,6 +16,7 @@
     text-align: center;
     
 }
+
 
 .carousel{
     height: 20rem;
@@ -24,4 +29,9 @@
     h5{color: #3d3d3d;
     
     }
+}
+
+footer{
+    background-color: #264653;
+    color: #fcfcfc;
 }

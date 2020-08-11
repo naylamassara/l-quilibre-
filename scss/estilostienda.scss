@@ -1,7 +1,4 @@
-.tienda{
-    background-image: url(../../images/fondo-naturaleza-hojas-grises-azules_52683-25369.jpg);
-    background-size: cover;
-}
+
 
 
 .card:hover{
@@ -13,6 +10,10 @@
 }
 
 .main__tienda{
-font-size: large;
-color:#4da6c9;
+    background-image: url(../../images/fondoproducto.jpg);
+    background-repeat: repeat-x;
+    color:#4da6c9;
+    height: 25rem;
+    font-family: "Roboto";
+    font-weight: bold;
 }

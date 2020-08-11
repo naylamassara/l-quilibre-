@@ -1,0 +1,45 @@
+$fontsize: 2.3rem;
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+    background-color: #fcfcfc;
+    font-size: $fontsize;
+}
+
+header{
+    font-size: $fontsize*0.8
+}
+h1{
+    font-size: $fontsize*4;
+}
+main{
+     font-size: $fontsize/2;
+ }
+
+.card{
+    font-size: $fontsize/1.5;
+}
+
+footer{
+     font-size: $fontsize/1.5;
+ }
+
+h3{
+     font-size: $fontsize*2;
+ }
+
+p{
+     font-size: $fontsize/1.5;
+ }
+ 
+form{
+    font-size: $fontsize;
+}
+
+.main__tienda {
+    font-size: $fontsize*2;
+}
+
