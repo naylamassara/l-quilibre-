@@ -1,7 +1,16 @@
 .header__nav{
   background-color: #509c8c;
-  box-shadow: 0px 7px 11px 0px rgba(70,157,184,0.44);
-    a{color:#fcfcfc;
+  box-shadow: 0px 7px 11px 0px rgba(70,157,184,0.44);  
+}
+.navbar-light .navbar-brand{ color:#fcfcfc;
+  font-size: inherit;
+}
+.navbar-light .navbar-nav .nav-link{ color:#fcfcfc;
       }
-      
+
+.dropdown-menu{
+  background: #509c8c;
+  a{
+    font-weight:bold;
+  }
 }

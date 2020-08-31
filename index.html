@@ -21,36 +21,39 @@
 <body>
 
     <header>
-        <nav class="container-fluid fixed-top header__nav">
-            <div class="row">
-                <a class="col mr-auto p-2 bd-highlight" href="./index.html"><img height="20px" title="Home"
-                        src="./images/logo.png" alt="Logo">
-                </a>
-                <ul class="col nav col-sm-10 flex-nowrap justify-content-end pr-5">
-
+        <nav id=menuindex class="navbar navbar-expand-lg navbar-light fixed-top header__nav">
+            <a class=" navbar-brand mr-auto p-2 bd-highlight" href="./index.html"><img height="25px" title="Home"
+                    src="./images/logo.png" alt="Logo">     l'équilibre</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">Secciones</a>
-                        <div class="dropdown-menu">
+                        <div class="dropdown-menu back">
                             <a class="dropdown-item" href="#actividadfisica">Salud</a>
                             <a class="dropdown-item" href="#cocina">Alimentación</a>
                             <a class="dropdown-item" href="#tipsnaturaleza">Cuidado personal</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./tienda.html">Tienda</a>
+                        <a class="nav-link " href="./tienda.html">Tienda</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="instagram"><img height="20px" src="./images/instagram.png"
-                                alt="Instagram">
+                        <a class="nav-link" href="https://www.instagram.com/sentidabotanicamdq/"><img height="20px"
+                                src="./images/instagram.png" alt="Instagram">
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="facebook"> <img height="20px" src="./images/facebook.png"
-                                alt="Facebook">
+                        <a class="nav-link"
+                            href="https://www.facebook.com/pages/category/Health-Beauty/Sentida-bot%C3%A1nica-mdq-321837035085131/">
+                            <img height="20px" src="./images/facebook.png" alt="Facebook">
                         </a>
                     </li>
 
@@ -65,7 +68,7 @@
 
         <div class="container-fluid mt-5 main__home">
             <div class="main__h1--caracteristica">
-                <h1 class="mb-0">l'équilibre </h1>
+                <h1 class="mt-5 pt-3 mb-0">l'équilibre </h1>
                 <p> by Sentida Botánica </p>
             </div>
             <div class="main__h2--caracteristica">
@@ -84,22 +87,22 @@
                 <div class="carousel-item active">
                     <img src="./images/cabello.jpg" class="d-block w-100" alt="Cuidado Personal">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Cuidado Personal</h5>
-                        <p>Cabelleras al natural</p>
+                        <h5 id=cuidadopersonal>CUIDADO PERSONAL</h5>
+                        <strong>Cabelleras al natural</strong>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="./images/pieles.jpg" class="d-block w-100" alt="Piel">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Piel</h5>
-                        <p>Mantenela humectada y con vitalidad</p>
+                        <h5 id=pielsana>PIEL SANA</h5>
+                        <strong>Mantenela humectada y con vitalidad</strong>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="./images/fragancias.jpg" class="d-block w-100" alt="Fragancias">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Fragancias</h5>
-                        <p>Esencias naturales y frescas</p>
+                        <h5>FRAGANCIAS</h5>
+                        <strong id=esencia>Esencias naturales y frescas</strong>
                     </div>
                 </div>
             </div>
@@ -115,64 +118,76 @@
     </main>
 
     <aside>
-        <div class="container d-flex justify-content-between">
-            <div class="col-sm-6 col-md-2 card" style="width: 18rem;">
-                <img src="./images/productos.jpg" class="card-img-top" alt="Productos">
-                <div class="card-body">
-                    <p class="card-text">Productos naturales para todo tu cuerpo. ¡Ingresá a nuestra tienda y conocé
-                        más!</p>
-                    <a href="./tienda.html"><button type="button" class="btn btn-outline-secondary">Tienda</button></a>
+        <div class="container d-flex " style="min-height: 280px">
+            <div class="row">
+                <div class="col-sm-12 col-md-3 mt-5 mb-5">
+                    <div class="card w-85 h-100">
+                        <img src="./images/productos.jpg" class="card-img-top" alt="Productos">
+                        <div class="card-body">
+                            <p class="card-text">Productos naturales para todo tu cuerpo. ¡Ingresá a nuestra tienda y
+                                conocé
+                                más!</p>
+                            <a href="./tienda.html"><button type="button"
+                                    class="btn btn-outline-secondary">Tienda</button></a>
 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-3 mt-5 mb-5">
+                    <div class="card w-85 h-100">
+                        <img src="./images/deporte.jpg" class="card-img-top" alt="Entrenamiento">
+                        <div class="card-body">
+                            <p class="card-text">No te detengas. ¡Te dejamos los mejores tips para que
+                                aprendas a
+                                mantenerte activa!</p>
+                            <a href="#actividadfisica"><button type="button" class="btn btn-outline-secondary">Conocé
+                                    más</button></a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-3 mt-5 mb-5">
+                    <div class="card w-85 h-100">
+                        <img src="./images/trucoscaseros.jpg" class="card-img-top" alt="TrucosCaseros">
+                        <div class="card-body">
+                            <p class="card-text">La naturaleza es sabia y nos regala los mejores productos para nuestro
+                                cuerpo.
+                            </p>
+                            <a href="#tipsnaturaleza"><button type="button" class="btn btn-outline-secondary">Conocé
+                                    más</button></a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12 col-md-3 mt-5 mb-5">
+                    <div class="card w-85 h-100">
+                        <img src="./images/cocina.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Como rico, como sano. ¡Te damos algunos consejos que te van a ser de
+                                mucha utilidad!</p>
+                            <a href="#cocina"><button type="button" class="btn btn-outline-secondary">Conocé
+                                    más</button></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="col-sm-6 col-md-2 card" style="width: 18rem;">
-                <img src="./images/deporte.jpg" class="card-img-top" alt="Entrenamiento">
-                <div class="card-body">
-                    <p class="card-text">No pares, no te detengas. ¡Te dejamos los mejores tips para que aprendas a
-                        mantenerte activa!</p>
-                    <a href="#actividadfisica"><button type="button" class="btn btn-outline-secondary">Conocé
-                            más</button></a>
-
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-2 card" style="width: 18rem;">
-                <img src="./images/trucoscaseros.jpg" class="card-img-top" alt="TrucosCaseros">
-                <div class="card-body">
-                    <p class="card-text">La naturaleza es sabia y nos regala los mejores productos para nuestro
-                        cuerpo.
-                        ¡Aprendé cómo usarlos!</p>
-                    <a href="#tipsnaturaleza"><button type="button" class="btn btn-outline-secondary">Conocé
-                            más</button></a>
-
-                </div>
-            </div>
-
-
-            <div class="col-sm-6 col-md-2 card" style="width: 18rem;">
-                <img src="./images/cocina.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Como rico, como sano. ¡Te damos algunos consejos!</p>
-                    <a href="#cocina"><button type="button" class="btn btn-outline-secondary">Conocé
-                            más</button></a>
-
-                </div>
-            </div>
-
         </div>
 
     </aside>
 
 
-    <section class="container mt-5 pt-5">
+    <section class="container mt-5 pt-5 actividadfisica">
         <div class="row">
-            <div class="col col-md-8 col-sm-12"><a name="actividadfisica"></a>
+            <div class="col-md-8 col-sm-12 "><a name="actividadfisica"></a>
                 <h3>Incluir la actividad física en tu vida</h3>
                 <p>1. Actívese desde temprano: Inicie el día con 15 minutos de estiramientos y ejercicios de
                     fortalecimiento muscular.</p>
                 <p>2. Disminuya el tiempo sentado durante el día:No se siente a menos que sea indispensable.</p>
- 
+
                 <p>3. Reemplace el carro, taxi, bus y buseta por sus piernas.</p>
                 <p>4. Realice ejercicio en su lugar de trabajo: Cambie la rutina de la oficina y mejore la productividad
                     en el trabajo </p>
@@ -190,7 +205,7 @@
                     entrenamiento de diferente intensidades y retos o juegos que implican gasto energético. </p>
 
             </div>
-            <div class="col col-md-4 col-sm-12 mt-5">
+            <div class="col-md-4 col-sm-12 mt-5">
                 <img class="img-fluid" src="./images/actividadfisica.jpg" alt="actividadfisica">
 
             </div>
@@ -200,12 +215,12 @@
 
 
 
-    <section class="container mt-5 pt-5"><a name="tipsnaturaleza"></a>
+    <section class="container mt-5 pt-5 tipsnaturaleza"><a name="tipsnaturaleza"></a>
         <div class="row">
-            <div class="col col-md-6">
+            <div class="col-sm-12 col-md-6">
                 <img class="img-fluid" src="./images/mascarillas-naturales-m.jpg" alt="tipsnaturaleza">
             </div>
-            <div class="col col-md-6">
+            <div class="col-sm-12 col-md-6">
                 <h3>Remedios naturales para cuidar el cuerpo</h3>
                 <p>1. Aceitunas y limón para mareos</p>
                 <p>2. Ajo y cebolla contra los resfriados</p>
@@ -228,9 +243,9 @@
     </section>
 
 
-    <section class="container mt-5 pt-5">
+    <section class="container mt-5 pt-5 cocina">
         <div class="row">
-            <div class="col col-md-8"><a name="cocina"></a>
+            <div class="col-sm-12 col-md-8"><a name="cocina"></a>
                 <h3> Consejos para mantener una alimentación saludable </h3>
                 <p>– Incorporar a diario alimentos de todos los grupos y realizar al menos 30 minutos de
                     actividad
@@ -263,7 +278,7 @@
                 <p> – Consumir aceite crudo como condimento, frutas secas o semillas.</p>
             </div>
 
-            <div class="col col-md-4">
+            <div class="col-sm-12 col-md-4">
                 <img class="img-fluid" src="./images/comer-sano.jpg" alt="Comer Sano">
             </div>
         </div>
@@ -274,35 +289,45 @@
 
 
     <footer>
-        <div class="container-fluid m-5">
+        <div class="container-fluid pt-5 pl-5 mt-5">
             <div class="row">
-                <div class="col">
+                <div class="col-md-4 col-sm-12">
                     <strong> Acerca de l'équilibre</strong>
-                    <p>Nuestro Emprendimiento</p>
-                    <p>Nuestros Valores</p>
-                    <p>Preguntas Frecuentes</p>
+                    <p>Nuestro Emprendimiento
+                        <br>
+                        Nuestros Valores
+                        <br>
+                        Preguntas Frecuentes</p>
                 </div>
-                <div class="col">
+                <div class="col-md-4 col-sm-12">
                     <strong>Cómo comprar</strong>
-                    <p>Quiero comprar</p>
-                    <p>Ofertas</p>
-                    <p>Formas de entrega</p>
-
+                    <p>Quiero comprar
+                        <br>
+                        Ofertas
+                        <br>
+                        Formas de entrega
+                    </p>
                 </div>
-                <div class="col">
+
+                <div class="col-md-4 col-sm-12">
                     <strong>Términos de privacidad y uso</strong>
-                    <p>Declaración de Privacidad</p>
-                    <p>Términos y Condiciones de uso del sitio</p>
-                    <p>Bases y condiciones</p>
+                    <p>Declaración de Privacidad
+                        <br>
+                        Términos y Condiciones de uso del sitio
+                        <br>
+                        Bases y condiciones</p>
+                </div>
+            </div>
+
+
+            <div class="row mt-3">
+                <div class="col-md-12 d-flex justify-content-end">
+                    <small>
+                        Desarrollado por Massara, Nayla Mariel - l'équilibre ® es una marca registrada
+                    </small>
                 </div>
             </div>
         </div>
-
-        <small>
-            Desarrollado por Massara, Nayla Mariel.
-            <br>
-            l'équilibre ® es una marca registrada.
-        </small>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

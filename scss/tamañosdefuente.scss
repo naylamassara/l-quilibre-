@@ -13,8 +13,15 @@ header{
     font-size: $fontsize*0.8
 }
 h1{
-    font-size: $fontsize*4;
+    font-size: $fontsize*3;
 }
+h5{
+    font-size: $fontsize
+}
+strong{
+    font-size:$fontsize*0.8;
+}
+
 main{
      font-size: $fontsize/2;
  }
@@ -40,6 +47,9 @@ form{
 }
 
 .main__tienda {
-    font-size: $fontsize*2;
+    font-size: $fontsize*1.5;
 }
 
+.btn-primary{
+    font-size: $fontsize*0.7;
+}

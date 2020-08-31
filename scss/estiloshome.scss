@@ -1,5 +1,6 @@
 
-$fontTitulo: 'Baroneys Textured'; 
+$fontTitulo: 'Bellota'; 
+
 
 
 .main__h1--caracteristica{
@@ -9,7 +10,7 @@ $fontTitulo: 'Baroneys Textured';
 }
 h1{
     font-family: $fontTitulo;
-}
+    }
 
 .main__h2--caracteristica{
     color: #05668d;
@@ -25,13 +26,32 @@ h1{
 .carousel-item{
     height: 20rem;
     object-fit: cover;
-
-    h5{color: #3d3d3d;
     
+    h5{color: #3d3d3d;
+        font-weight: bolder;
+    }
+    #pielsana{
+        color:#fcfcfc;
+    }
+    #cuidadopersonal{
+        color: #fcfcfc;
+    }
+    #esencia{
+        color: #3d3d3d;
     }
 }
+
+.tipsnaturaleza{
+    background-color: #dfdddd;
+}
+.cocina, .actividadfisica{
+    background-color: #f7f1f1;
+}
+
 
 footer{
     background-color: #264653;
     color: #fcfcfc;
 }
+
+

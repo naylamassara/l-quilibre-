@@ -21,36 +21,39 @@
 <body>
 
     <header>
-        <nav class="container-fluid fixed-top header__nav">
-            <div class="row">
-                <a class="col mr-auto p-2 bd-highlight" href="./index.html"><img height="20px" title="Home"
-                        src="./images/logo.png" alt="Logo">
-                </a>
-                <ul class="col nav col-sm-10 flex-nowrap justify-content-end pr-5">
-
+        <nav id=menuindex class="navbar navbar-expand-lg navbar-light fixed-top header__nav">
+            <a class=" navbar-brand mr-auto p-2 bd-highlight" href="./index.html"><img height="25px" title="Home"
+                    src="./images/logo.png" alt="Logo">     l'équilibre</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">Secciones</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Salud</a>
-                            <a class="dropdown-item" href="#">Alimentación</a>
-                            <a class="dropdown-item" href="#">Cuidado personal</a>
+                        <div class="dropdown-menu back">
+                            <a class="dropdown-item" href="./index.html#actividadfisica">Salud</a>
+                            <a class="dropdown-item" href="./index.html#cocina">Alimentación</a>
+                            <a class="dropdown-item" href="./index.html#tipsnaturaleza">Cuidado personal</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./tienda.html">Tienda</a>
+                        <a class="nav-link " href="./tienda.html">Tienda</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="instagram"><img height="20px" src="./images/instagram.png"
-                                alt="Instagram">
+                        <a class="nav-link" href="https://www.instagram.com/sentidabotanicamdq/"><img height="20px"
+                                src="./images/instagram.png" alt="Instagram">
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="facebook"> <img height="20px" src="./images/facebook.png"
-                                alt="Facebook">
+                        <a class="nav-link"
+                            href="https://www.facebook.com/pages/category/Health-Beauty/Sentida-bot%C3%A1nica-mdq-321837035085131/">
+                            <img height="20px" src="./images/facebook.png" alt="Facebook">
                         </a>
                     </li>
 
@@ -61,11 +64,12 @@
     </header>
 
 
-    <main class="body__form p-3 mt-5">
+
+    <main class="container-fluid body__form p-3 mt-5">
 
         <form class="m-5">
             <div class="form-row">
-                <div class="form-group col-md-6 ">
+                <div class="form-group col-md-4 ">
                     <label for="inputnombre">Nombre y Apellido</label>
                     <input type="nombre" class="form-control" id="inputnombre">
                 </div>
@@ -85,7 +89,7 @@
             <div class="form-row">
                 <div class="form-group col-md-2">
                     <label for="inputZip">Mensaje</label>
-                    <textarea class="borde" name="mensaje" id="inputZip" cols="43" rows="5"></textarea>
+                    <textarea class="borde" name="mensaje" id="inputZip" cols="30" rows="5"></textarea>
 
                 </div>
             </div>
@@ -101,53 +105,69 @@
         </form>
     </main>
 
-    <section class="container-fluid m-5">
+    <section class="container mt-5 d-flex">
         <div class="row">
-            <div class="col">
+            <div class="col-md-6">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201169.28269925909!2d-57.74061839594439!3d-38.01748355645357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1596150634667!5m2!1ses!2sar"
-                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    width="auto" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                     tabindex="0"></iframe>
             </div>
-            <div class="informacion col d-flex align-items-center">
-                <div class="mr-3"> DIRECCIÓN:Calle Olavarría n°2329, Mar del Plata (CP 7600) </div>
-                
+            <div class="col-md-4 col-sm-12 informacion ">
+                <div> DIRECCIÓN:Calle Olavarría n°2329, Mar del Plata (CP 7600) </div>
+
                 <div>HORARIOS:Jueves, Viernes y Sábados de 18.00 hs a 2.00 hs.</div>
-                
+
+                <br>
+                <em>¡Obtené novedades y descuentos increibles!</em>
+                <br>
+                <button type="button" class="btn btn-light btn-l">QUIERO REGISTRARME</button>
+
             </div>
 
     </section>
 
+   
     <footer>
-        <div class="container-fluid m-5">
+        <div class="container-fluid  pt-5 pl-5 mt-5">
             <div class="row">
-                <div class="col">
+                <div class=" col-md-4 col-sm-12">
                     <strong> Acerca de l'équilibre</strong>
-                    <p>Nuestro Emprendimiento</p>
-                    <p>Nuestros Valores</p>
-                    <p>Preguntas Frecuentes</p>
+                    <p>Nuestro Emprendimiento
+                        <br>
+                        Nuestros Valores
+                        <br>
+                        Preguntas Frecuentes</p>
                 </div>
-                <div class="col">
+                <div class="col-md-4 col-sm-12">
                     <strong>Cómo comprar</strong>
-                    <p>Quiero comprar</p>
-                    <p>Ofertas</p>
-                    <p>Formas de entrega</p>
-
+                    <p>Quiero comprar
+                        <br>
+                        Ofertas
+                        <br>
+                        Formas de entrega
+                    </p>
                 </div>
-                <div class="col">
+
+                <div class="col-md-4 col-sm-12">
                     <strong>Términos de privacidad y uso</strong>
-                    <p>Declaración de Privacidad</p>
-                    <p>Términos y Condiciones de uso del sitio</p>
-                    <p>Bases y condiciones</p>
+                    <p>Declaración de Privacidad
+                        <br>
+                        Términos y Condiciones de uso del sitio
+                        <br>
+                        Bases y condiciones</p>
+                </div>
+            </div>
+
+
+            <div class="row mt-3">
+                <div class="col-md-12 d-flex justify-content-end">
+                    <small>
+                        Desarrollado por Massara, Nayla Mariel - l'équilibre ® es una marca registrada
+                    </small>
                 </div>
             </div>
         </div>
-
-        <small>
-            Desarrollado por Massara, Nayla Mariel.
-            <br>
-            l'équilibre ® es una marca registrada.
-        </small>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

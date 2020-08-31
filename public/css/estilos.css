@@ -1,11 +1,11 @@
-@import url(../baroneys_textured/BaroneysTextured.ttf);
+@import url("https://fonts.googleapis.com/css2?family=Bellota&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Marvel&family=Roboto:wght@100&display=swap");
 .main__h1--caracteristica {
   color: #028090;
   text-align: center; }
 
 h1 {
-  font-family: "Baroneys Textured"; }
+  font-family: "Bellota"; }
 
 .main__h2--caracteristica {
   color: #05668d;
@@ -19,7 +19,20 @@ h1 {
   height: 20rem;
   object-fit: cover; }
   .carousel-item h5 {
+    color: #3d3d3d;
+    font-weight: bolder; }
+  .carousel-item #pielsana {
+    color: #fcfcfc; }
+  .carousel-item #cuidadopersonal {
+    color: #fcfcfc; }
+  .carousel-item #esencia {
     color: #3d3d3d; }
+
+.tipsnaturaleza {
+  background-color: #dfdddd; }
+
+.cocina, .actividadfisica {
+  background-color: #f7f1f1; }
 
 footer {
   background-color: #264653;
@@ -28,8 +41,18 @@ footer {
 .header__nav {
   background-color: #509c8c;
   box-shadow: 0px 7px 11px 0px rgba(70, 157, 184, 0.44); }
-  .header__nav a {
-    color: #fcfcfc; }
+
+.navbar-light .navbar-brand {
+  color: #fcfcfc;
+  font-size: inherit; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fcfcfc; }
+
+.dropdown-menu {
+  background: #509c8c; }
+  .dropdown-menu a {
+    font-weight: bold; }
 
 .body__form {
   background-image: url("../../images/woodtable.jpg");
@@ -53,6 +76,15 @@ iframe {
 .informacion {
   color: #264653; }
 
+.btn-l:hover {
+  font-size: 0rem;
+  color: #509c8c;
+  background-color: #fafafa;
+  font-weight: bolder; }
+  .btn-l:hover::before {
+    content: "Estas a un paso!!!";
+    font-size: 2rem; }
+
 .card:hover {
   transform: scale(1.1);
   -webkit-box-shadow: 7px 5px 2px 0px rgba(139, 148, 143, 0.48);
@@ -63,7 +95,7 @@ iframe {
   background-image: url(../../images/fondoproducto.jpg);
   background-repeat: repeat-x;
   color: #4da6c9;
-  height: 25rem;
+  height: 18rem;
   font-family: "Roboto";
   font-weight: bold; }
 
@@ -78,7 +110,13 @@ header {
   font-size: 1.84rem; }
 
 h1 {
-  font-size: 9.2rem; }
+  font-size: 6.9rem; }
+
+h5 {
+  font-size: 2.3rem; }
+
+strong {
+  font-size: 1.84rem; }
 
 main {
   font-size: 1.15rem; }
@@ -99,7 +137,10 @@ form {
   font-size: 2.3rem; }
 
 .main__tienda {
-  font-size: 4.6rem; }
+  font-size: 3.45rem; }
+
+.btn-primary {
+  font-size: 1.61rem; }
 
 * {
   margin: 0;

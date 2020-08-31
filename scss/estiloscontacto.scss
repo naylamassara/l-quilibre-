@@ -29,3 +29,22 @@ iframe{
 .informacion{
     color:#264653;
 }
+
+
+.btn-l {
+    &:hover{
+        font-size:0rem;
+        color:#509c8c;
+        background-color:#fafafa;
+        font-weight: bolder;
+    
+    &::before{
+        content: "Estas a un paso!!!";
+        font-size: 2rem;
+        
+        
+
+    }
+}
+
+}
